@@ -8,12 +8,14 @@ import static your.package.com.MsgAPI.*;
 
 public final class Main extends JavaPlugin {
 
+	
+	
     private static Logger logger;
 
   
     @Override
     public void onEnable() {
-        
+        // REQUIRED
         logger = getLogger();
 	
     }
@@ -26,6 +28,7 @@ public final class Main extends JavaPlugin {
     }
     public static Logger getPluginLogger() {
         return logger;
+	    // THIS METHOD IS 100% REQUIRED IN YOUR MAIN CLASS.
     }
 
 
