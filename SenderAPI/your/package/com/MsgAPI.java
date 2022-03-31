@@ -5,7 +5,8 @@ import org.bukkit.ChatColor;
 import java.util.logging.Logger;
 
 public class SenderUtils {
-
+ 
+    // add Logger which is saved in Main
     private static Logger logger = Main.getPluginLogger();
 
     public static String color(String text) {
